@@ -1,0 +1,6 @@
+{
+  "name": "GarbaGo",
+  "description": "Your AI-Powered Navratri Companion in Ahmedabad. Plan your festive night, discover authentic Garba venues, curate traditional outfits, and explore midnight food trails.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
