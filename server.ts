@@ -42,6 +42,9 @@ app.post('/api/outfit/generate', async (req: Request, res: Response) => {
   }
 });
 
+// Serve static assets from public directory (favicons, manifests, etc.)
+app.use(express.static(path.resolve(__dirname, 'public')));
+
 // Configure Vite middleware in development or express.static in production
 async function startServer() {
   if (!isProd) {

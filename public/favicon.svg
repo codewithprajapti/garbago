@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Radial Gradient: Deep Royal Indigo / Midnight Purple -->
+    <radialGradient id="garbaBg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2d1057" />
+      <stop offset="60%" stop-color="#180735" />
+      <stop offset="100%" stop-color="#0e0024" />
+    </radialGradient>
+
+    <!-- Warm Festive Gold Gradients -->
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="35%" stop-color="#cca830" />
+      <stop offset="70%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="60%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <!-- Vibrant Saffron / Gujarati Orange Gradients for Diya Vessel -->
+    <linearGradient id="diyaBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7518" />
+      <stop offset="45%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#be3a05" />
+    </linearGradient>
+
+    <linearGradient id="diyaRim" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="25%" stop-color="#fbbf24" />
+      <stop offset="50%" stop-color="#fef08a" />
+      <stop offset="75%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <!-- Divine Navratri Jyoti Flame Gradients -->
+    <linearGradient id="flameOuter" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="30%" stop-color="#f97316" />
+      <stop offset="70%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fde047" />
+    </linearGradient>
+
+    <linearGradient id="flameInner" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#fffbeb" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+
+    <linearGradient id="flameCore" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#fef9c3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Circular Badge -->
+  <circle cx="256" cy="256" r="240" fill="url(#garbaBg)" />
+
+  <!-- Outer Festive Gold Ring -->
+  <circle cx="256" cy="256" r="236" fill="none" stroke="url(#goldBorder)" stroke-width="8" />
+  
+  <!-- Subtle Inner Ring -->
+  <circle cx="256" cy="256" r="224" fill="none" stroke="#cca830" stroke-width="1.5" stroke-opacity="0.45" />
+
+  <!-- Circular Garba Dance Rhythm Ring (Garba Mandali Circle) -->
+  <circle cx="256" cy="256" r="184" fill="none" stroke="#cca830" stroke-width="2" stroke-dasharray="6 8" stroke-opacity="0.5" />
+
+  <!-- 8 Auspicious Garba Dance Petals / Flame Accents symbolizing circular celebration -->
+  <g transform="translate(256, 256)">
+    <g transform="rotate(0)"><path d="M 0,-184 C -5,-172 0,-160 0,-160 C 0,-160 5,-172 0,-184 Z" fill="url(#goldAccent)" /></g>
+    <g transform="rotate(45)"><path d="M 0,-184 C -5,-172 0,-160 0,-160 C 0,-160 5,-172 0,-184 Z" fill="url(#goldAccent)" /></g>
+    <g transform="rotate(90)"><path d="M 0,-184 C -5,-172 0,-160 0,-160 C 0,-160 5,-172 0,-184 Z" fill="url(#goldAccent)" /></g>
+    <g transform="rotate(135)"><path d="M 0,-184 C -5,-172 0,-160 0,-160 C 0,-160 5,-172 0,-184 Z" fill="url(#goldAccent)" /></g>
+    <g transform="rotate(180)"><path d="M 0,-184 C -5,-172 0,-160 0,-160 C 0,-160 5,-172 0,-184 Z" fill="url(#goldAccent)" /></g>
+    <g transform="rotate(225)"><path d="M 0,-184 C -5,-172 0,-160 0,-160 C 0,-160 5,-172 0,-184 Z" fill="url(#goldAccent)" /></g>
+    <g transform="rotate(270)"><path d="M 0,-184 C -5,-172 0,-160 0,-160 C 0,-160 5,-172 0,-184 Z" fill="url(#goldAccent)" /></g>
+    <g transform="rotate(315)"><path d="M 0,-184 C -5,-172 0,-160 0,-160 C 0,-160 5,-172 0,-184 Z" fill="url(#goldAccent)" /></g>
+  </g>
+
+  <!-- Radiant Aura behind Flame -->
+  <circle cx="256" cy="216" r="92" fill="#fbbf24" fill-opacity="0.12" />
+
+  <!-- Sacred Jyoti Flame (Navratri Divine Flame) -->
+  <!-- Outer Flame Layer -->
+  <path d="M 256,108 C 268,154 316,204 316,256 C 316,290 289,314 256,314 C 223,314 196,290 196,256 C 196,204 244,154 256,108 Z" fill="url(#flameOuter)" />
+
+  <!-- Mid Flame Layer -->
+  <path d="M 256,136 C 265,172 298,212 298,254 C 298,278 279,298 256,298 C 233,298 214,278 214,254 C 214,212 247,172 256,136 Z" fill="url(#flameInner)" />
+
+  <!-- Inner Sacred Core Light -->
+  <path d="M 256,178 C 263,206 280,234 280,258 C 280,274 269,286 256,286 C 243,286 232,274 232,258 C 232,234 249,206 256,178 Z" fill="url(#flameCore)" />
+
+  <!-- Traditional Gujarati Diya (Earthen Lamp Bowl) -->
+  <!-- Diya Base Shadow -->
+  <ellipse cx="256" cy="372" rx="94" ry="12" fill="#070014" fill-opacity="0.5" />
+
+  <!-- Diya Terracotta/Brass Vessel -->
+  <path d="M 146,306 C 156,370 218,386 256,386 C 294,386 356,370 366,306 C 332,328 296,336 256,336 C 216,336 180,328 146,306 Z" fill="url(#diyaBase)" />
+
+  <!-- Diya Golden Rim / Lip -->
+  <path d="M 146,306 C 180,328 216,336 256,336 C 296,336 332,328 366,306 C 344,297 300,290 256,290 C 212,290 168,297 146,306 Z" fill="url(#diyaRim)" />
+
+  <!-- Auspicious Diya Golden Jewels -->
+  <circle cx="256" cy="354" r="5" fill="#fde047" />
+  <circle cx="224" cy="348" r="3.5" fill="#fde047" fill-opacity="0.85" />
+  <circle cx="288" cy="348" r="3.5" fill="#fde047" fill-opacity="0.85" />
+</svg>

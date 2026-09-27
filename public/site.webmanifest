@@ -1,0 +1,26 @@
+{
+  "name": "GarbaGo — Your AI-Powered Navratri Companion",
+  "short_name": "GarbaGo",
+  "description": "Your AI-Powered Navratri Companion in Ahmedabad.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e0024",
+  "theme_color": "#0e0024",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
